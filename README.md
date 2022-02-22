@@ -1,7 +1,4 @@
-# refactoring-project
-Refactoring Codebase Project
-
-Weekly Challenge #1 - HTML & CSS Refactoring Project
+Weekly Challenge #1 - HTML & CSS Refactoring Codebase Project
 - Used given codebase and added accessibility features in HTML like semantic tags, alt image descriptions
 - Also simplified CSS
 
