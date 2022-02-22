@@ -86,55 +86,36 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* benefits section class has repeated article element, so generalize here*/
+/* originally separated by article classes */
+/* (.benefit-brand, .benefit-lead, .benefit-cost), but this is unnecessary*/
+.benefits article {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* benefits section class has repeated h3 element, so generalize here*/
+/* originally separated by article classes */
+/* (.benefit-brand, .benefit-lead, .benefit-cost), but this is unnecessary*/
+.benefits article h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* benefits section class has repeated img, so I generalize here*/
+/* originally separated by article classes */
+/* (.benefit-brand, .benefit-lead, .benefit-cost), but this is unnecessary*/
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/* content section class has repeated article, so I generalize here*/
+/* originally separated by article classes */
+/* (.search-engine-optimization, .online-reputation-management, .social-media-marketing)*/
+/* but this is unnecessary*/
+.content article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,33 +124,11 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
+/* content section class has repeated img, so I generalize here*/
+/* originally separated by article classes */
+/* (.search-engine-optimization, .online-reputation-management, .social-media-marketing)*/
+/* but this is unnecessary*/
+.content article img {
     max-height: 200px;
 }
 
