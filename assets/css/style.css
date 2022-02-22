@@ -75,6 +75,35 @@ p {
     margin-left: 20px;
 }
 
+/* content section class has repeated article, so I generalize here*/
+/* originally separated by article classes */
+/* (.search-engine-optimization, .online-reputation-management, .social-media-marketing)*/
+/* but this is unnecessary*/
+.content article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* content section class has repeated img, so I generalize here*/
+/* originally separated by article classes */
+/* (.search-engine-optimization, .online-reputation-management, .social-media-marketing)*/
+/* but this is unnecessary*/
+.content article img {
+    max-height: 200px;
+}
+
+/* content section class has repeated h2, so I generalize here*/
+/* originally separated by article classes */
+/* (.search-engine-optimization, .online-reputation-management, .social-media-marketing)*/
+/* but this is unnecessary*/
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -109,42 +138,6 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/* content section class has repeated article, so I generalize here*/
-/* originally separated by article classes */
-/* (.search-engine-optimization, .online-reputation-management, .social-media-marketing)*/
-/* but this is unnecessary*/
-.content article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* content section class has repeated img, so I generalize here*/
-/* originally separated by article classes */
-/* (.search-engine-optimization, .online-reputation-management, .social-media-marketing)*/
-/* but this is unnecessary*/
-.content article img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .footer {
