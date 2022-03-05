@@ -4,11 +4,11 @@
 
 This project was an assignment I worked on for my bootcamp. It involved taking the website for Horiseion and refactoring the HTML and CSS to improve accessibility. 
 
-Image of the project: 
+**Image of the project: **
 ![image](https://user-images.githubusercontent.com/94158855/155067468-19628ec5-aff7-4745-b693-64097a3cb5c4.png)
 
-Link to deployed project: 
-https://rjimeneztech.github.io/refactoring-project/
+**Link to deployed project: **
+https://rjimeneztech.github.io/RJ-horiseon-accessibility-refactoring/
 
 ## Table of Contents
 
